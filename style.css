@@ -10,8 +10,13 @@
     text-decoration: none;
 }
 
+body{
+    display: none;
+}
+
 @media(max-width: 394px) {
     body {
+        display: block;
         background: linear-gradient(to bottom, #13053B, #0B051B);
         background-size: cover;
         background-repeat: no-repeat;
