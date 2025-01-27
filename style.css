@@ -36,6 +36,7 @@ body{
         top: -15%;
         transform: translateX(-50%);
         width: 385px;
+        pointer-events: none;
     }
     .block-coin{
         position: relative;
@@ -54,6 +55,7 @@ body{
     }
     .img-coin{
         padding: 0 20px 0 0;
+        pointer-events: none;
     }
     .txt-coin{
         position: relative;
@@ -78,6 +80,7 @@ body{
     .img-updates{
         padding: 0 55px 0 0;
         filter: drop-shadow(0px 0px 20px #04072A);
+        pointer-events: none;
     }
     .txt-updates{
         position: relative;
@@ -102,6 +105,7 @@ body{
     .img-info{
         padding: 0 100px 0 0;
         filter: drop-shadow(0px 0px 10px #040639);
+        pointer-events: none;
     }
     .txt-info{
         position: relative;
