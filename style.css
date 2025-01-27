@@ -77,6 +77,7 @@ body{
     }
     .img-updates{
         padding: 0 55px 0 0;
+        filter: drop-shadow(0px 0px 20px #04072A);
     }
     .txt-updates{
         position: relative;
@@ -100,6 +101,7 @@ body{
     }
     .img-info{
         padding: 0 100px 0 0;
+        filter: drop-shadow(0px 0px 10px #040639);
     }
     .txt-info{
         position: relative;
@@ -107,17 +109,18 @@ body{
         right: 182.5px;
     }
 
-    .header{
+/*     .header{
         position: absolute;
         display: flex;
-        justify-content: center;
         width: 100%;
+        bottom: 0;
         height: 75px;
         border: 1px solid red;
-        bottom: 0;
         background-color: #13053B;
+        justify-content: center;
+        align-items: center;
     }
     .img-header{
-        
-    }
+        width: 30px;
+    } */
 }
