@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+html, body{
+    height: 100%;
+}
+
 body{
     display: none;
 }
@@ -20,7 +24,8 @@ body{
         background: linear-gradient(to bottom, #13053B, #0B051B);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        min-height: 100%;
+        overflow: hidden;
     }
 /*     .header {
         display: flex;
